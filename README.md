@@ -8,8 +8,8 @@ Ce projet implémente une architecture de **base de données répartie Oracle** 
 
 L'architecture se compose de deux nœuds distribués :
 
-- **Serveur 1 (ensias1)** : Données primaires pour Casablanca
-- **Serveur 2 (ensias2)** : Données primaires pour Rabat + données de référence
+- **Serveur 1 ** : Données primaires pour Casablanca
+- **Serveur 2 ** : Données primaires pour Rabat + données de référence
 
 Les données sont fragmentées par localité géographique pour optimiser les performances et localiser les traitements.
 
